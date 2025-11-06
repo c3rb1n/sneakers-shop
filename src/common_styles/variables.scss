@@ -1,3 +1,6 @@
 :root {
-    --bg-color: #242C3B
+    --bg-color: #242C3B;
+    --main-color: #4B4CED;
+    --second-color: #37B6E9;
+    --main-gradient: linear-gradient(to top, var(--main-color), var(--second-color));
 }

@@ -3,7 +3,7 @@ import styles from './App.module.scss';
 const App = () => {
     return (
         <>
-            <div className={styles.test}>Test</div>
+            <div className={styles.bgFigure}></div>
         </>
     );
 };

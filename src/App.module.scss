@@ -1,3 +1,13 @@
 body {
     background-color: var(--bg-color);
+    font-family: Poppins, sans-serif;
+}
+
+.bgFigure {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: var(--main-gradient);
+    clip-path: polygon(100% 25%, 100% 100%, 0 100%, 85% 10%);
 }
