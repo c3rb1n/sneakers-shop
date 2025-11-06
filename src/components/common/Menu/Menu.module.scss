@@ -1,0 +1,34 @@
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    &__logo {
+        fill: var(--logo-main-fill);
+        margin-top: -2px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: var(--main-gradient-to-right-bottom);
+        color: transparent;
+        background-clip: text;
+
+        &:hover {
+            cursor: pointer;
+
+            .menu__logo {
+                fill: var(--logo-hovered-fill);
+                transition: 0.3s linear;
+            }
+        }
+    }
+}
+
+@media (width <=992px) {
+    .menu {
+        display: none;
+    }
+}
