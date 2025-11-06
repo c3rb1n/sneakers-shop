@@ -2,5 +2,9 @@
     --bg-color: #242C3B;
     --main-color: #4B4CED;
     --second-color: #37B6E9;
-    --main-gradient: linear-gradient(to top, var(--main-color), var(--second-color));
+    --logo-main-fill: rgb(255 255 255 / 0.6);
+    --logo-hovered-fill: #fff;
+    --main-gradient-to-top: linear-gradient(to top, var(--main-color), var(--second-color));
+    --main-gradient-to-right-bottom: linear-gradient(to right bottom, var(--main-color), var(--second-color));
+    --main-gradient-to-left: linear-gradient(to left, var(--main-color), var(--second-color));
 }

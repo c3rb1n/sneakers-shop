@@ -1,0 +1,11 @@
+.header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 125px;
+    width: 100%;
+    background: linear-gradient(135deg, rgb(255 255 255 / 0.1), rgb(255 255 255 / 0));
+    backdrop-filter: blur(10px);
+    z-index: 5;
+}
