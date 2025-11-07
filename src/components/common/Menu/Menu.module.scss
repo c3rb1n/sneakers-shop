@@ -4,7 +4,7 @@
     gap: 20px;
 
     &__logo {
-        fill: var(--logo-main-fill);
+        fill: var(--accent-dark-color);
         margin-top: -2px;
     }
 
@@ -20,7 +20,7 @@
             cursor: pointer;
 
             .menu__logo {
-                fill: var(--logo-hovered-fill);
+                fill: var(--accent-color);
                 transition: 0.3s linear;
             }
         }

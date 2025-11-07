@@ -1,0 +1,14 @@
+.button {
+    background: var(--main-gradient-to-top);
+    color: var(--accent-color);
+    font-weight: bold;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+        transition: 0.2s linear;
+    }
+}

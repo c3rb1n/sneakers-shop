@@ -2,9 +2,15 @@
     --bg-color: #242C3B;
     --main-color: #4B4CED;
     --second-color: #37B6E9;
-    --logo-main-fill: rgb(255 255 255 / 0.6);
-    --logo-hovered-fill: #fff;
+    --accent-color: #fff;
+    --accent-dark-color: rgb(255 255 255 / 0.6);
+    --red-line-color: #f00;
+    --red-line: 2px solid var(--red-line-color);
+    --border-soft-color: rgb(255 255 255 / 0.2);
     --main-gradient-to-top: linear-gradient(to top, var(--main-color), var(--second-color));
     --main-gradient-to-right-bottom: linear-gradient(to right bottom, var(--main-color), var(--second-color));
     --main-gradient-to-left: linear-gradient(to left, var(--main-color), var(--second-color));
+    --discount-banner-gradient: linear-gradient(to top, #11141a, #353F54);
+    --carousel-bg-gradient: linear-gradient(145deg, rgb(54 62 81 / 0.6) 0%, rgb(25 30 38 / 0.6) 100%);
+    --carousel-btn-gradient: linear-gradient(to bottom, rgb(255 255 255 / 0.3), rgb(255 255 255 / 0.2));
 }
