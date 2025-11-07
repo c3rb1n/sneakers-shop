@@ -1,0 +1,122 @@
+.carousel {
+    width: 100%;
+    background: var(--carousel-bg-gradient);
+    backdrop-filter: blur(20px);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+    &__inner {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        gap: 19px;
+        overflow: hidden;
+        padding: 0 30px;
+    }
+
+    &__btn {
+        min-width: 40px;
+        min-height: 40px;
+        background: var(--carousel-btn-gradient);
+        color: var(--second-color);
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+        border-radius: 50%;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.7;
+            transition: 0.2s linear;
+        }
+    }
+
+    &__title,
+    &__description {
+        display: none;
+        margin: 0;
+    }
+
+    &__description {
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        color: var(--accent-dark-color);
+    }
+
+    &__title {
+        font-size: 16px;
+        text-align: center;
+        color: var(--accent-color);
+        margin: 51px 0 35px 30px;
+    }
+
+    &__discount,
+    &__buyBtn {
+        display: none;
+    }
+
+    &__imgContainer {
+        width: 350px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        &:hover {
+            justify-content: flex-start;
+            padding-top: 60px;
+
+            .carousel__img {
+                height: 75px;
+                width: 125px;
+                cursor: pointer;
+                transition: .5s linear;
+            }
+
+            .carousel__title,
+            .carousel__description {
+                display: block;
+            }
+        }
+    }
+}
+
+@media (width <=800px) {
+    .carousel {
+        border-radius: 0;
+
+        &__imgContainer {
+            gap: 30px;
+        }
+
+        &__discount,
+        &__buyBtn {
+            display: flex;
+        }
+
+        &__inner {
+            justify-content: space-between;
+            padding: 0 15px;
+        }
+
+        &__img {
+            height: 75px;
+            width: 125px;
+            cursor: pointer;
+        }
+
+        &__title {
+            display: block;
+            margin: 0;
+        }
+
+        &__textBlock {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 30px;
+        }
+    }
+}

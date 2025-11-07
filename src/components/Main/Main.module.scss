@@ -1,0 +1,13 @@
+.mainContent {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 35px;
+        margin-top: 160px;
+    }
+}

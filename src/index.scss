@@ -1,2 +1,8 @@
 @use "./common_styles/normalize";
 @use "./common_styles/variables";
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
