@@ -40,6 +40,12 @@ const CartIcon = ({cn}) => (
                 -215 -31 -221 -25 -4 3 65 378 73 403 3 9 39 12 130 12 123 0 126 0 120 -21z"
             />
         </g>
+        <defs>
+            <linearGradient id="gradient" x1="1" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="#4B4CED" />
+                <stop offset="100%" stop-color="#37B6E9" />
+            </linearGradient>
+        </defs>
     </svg>
 );
 

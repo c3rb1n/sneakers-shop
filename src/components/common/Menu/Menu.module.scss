@@ -12,16 +12,29 @@
         display: flex;
         align-items: center;
         gap: 10px;
-        background: var(--main-gradient-to-right-bottom);
-        color: transparent;
-        background-clip: text;
+        color: var(--accent-dark-color);
+        font-weight: bold;
+        text-decoration: none;
 
-        &:hover {
-            cursor: pointer;
+        &_active {
+            background: var(--main-gradient-to-right-bottom);
+            background-clip: text;
+            color: transparent;
 
             .menu__logo {
-                fill: var(--accent-color);
-                transition: 0.3s linear;
+                fill: url("#gradient");
+            }
+        }
+
+        &:hover {
+            background: var(--main-gradient-to-right-bottom);
+            background-clip: text;
+            color: transparent;
+            cursor: pointer;
+            transition: 0.3s linear;
+
+            .menu__logo {
+                fill: url("#gradient");
             }
         }
     }
