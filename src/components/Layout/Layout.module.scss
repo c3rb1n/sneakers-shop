@@ -1,0 +1,22 @@
+.bgFigure {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background: var(--main-gradient-to-top);
+    clip-path: polygon(100% 25%, 100% 100%, 0 100%, 85% 10%);
+    z-index: -1;
+}
+
+.mainContent {
+    display: flex;
+    justify-content: center;
+
+    &__inner {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        width: 800px;
+        margin-top: 160px;
+    }
+}

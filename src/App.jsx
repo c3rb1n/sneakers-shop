@@ -1,14 +1,10 @@
-import styles from './App.module.scss';
-import Header from './components/Header/Header';
-import Main from './components/Main/Main';
+import './App.scss';
+
+import Layout from './components/Layout/Layout';
 
 const App = () => {
     return (
-        <>
-            <div className={styles.bgFigure}></div>
-            <Header />
-            <Main />
-        </>
+        <Layout />
     );
 };
 

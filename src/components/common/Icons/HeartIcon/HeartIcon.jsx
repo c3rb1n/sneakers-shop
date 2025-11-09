@@ -16,6 +16,12 @@ const HeartIcon = ({cn}) => (
                 203 5 268 -10z"
             />
         </g>
+        <defs>
+            <linearGradient id="gradient" x1="1" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="#4B4CED" />
+                <stop offset="100%" stop-color="#37B6E9" />
+            </linearGradient>
+        </defs>
     </svg>
 );
 
